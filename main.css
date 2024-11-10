@@ -156,6 +156,26 @@ footer img {
     height: 32px;
 }
 
+/* Personalizando a barra de rolagem para navegadores WebKit */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #314e9e;
+}
+
 /* Adaptando para telas maiores de até 1024px */
 @media (max-width: 1024px) {
     .produtos {
